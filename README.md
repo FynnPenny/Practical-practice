@@ -1,2 +1,2 @@
 # Practical-practice
-A repo to help practically practice
+A repo in which to practice python... practically
