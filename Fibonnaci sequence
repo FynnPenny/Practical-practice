@@ -2,10 +2,11 @@
 #practice#
 
 rep = int(input ())
-n = 1
+n = 3
 
 one = 1
 two = 1
+three = 1
 
 while n < rep:
   three = one + two
