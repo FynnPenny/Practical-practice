@@ -1,0 +1,16 @@
+#Hopefully create file to retrieve individual numbers from fibonnaci sequence through brute force??#
+#practice#
+
+rep = int(input ())
+n = 1
+
+one = 1
+two = 1
+
+while n < rep:
+  one + two = three
+  one = two
+  two = three
+  n = n + 1
+
+print (three)
