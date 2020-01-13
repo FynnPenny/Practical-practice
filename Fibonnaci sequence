@@ -1,5 +1,4 @@
-#Hopefully create file to retrieve individual numbers from fibonnaci sequence through brute force??#
-#practice#
+#program to retrieve individual numbers from fibonnaci sequence through brute force??#
 
 rep = int(input ())
 n = 2
@@ -9,6 +8,8 @@ two = 1
 three = 1
 
 while n < rep:
+  #print (three)#
+  #add line above to print all digits of fibonacci sequence up to desired#
   three = one + two
   one = two
   two = three
