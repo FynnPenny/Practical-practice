@@ -2,7 +2,7 @@
 #practice#
 
 rep = int(input ())
-n = 3
+n = 2
 
 one = 1
 two = 1
