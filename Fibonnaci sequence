@@ -1,18 +1,22 @@
 #program to retrieve individual numbers from fibonnaci sequence through brute force??#
 
-rep = int(input ())
-n = 2
-
-one = 1
-two = 1
-three = 1
-
-while n < rep:
-  #print (three)#
-  #add line above to print all digits of fibonacci sequence up to desired#
-  three = one + two
-  one = two
-  two = three
-  n = n + 1
-
-print (three)
+def fib():
+  print("enter a positive integer")
+  rep = int(input ())
+  
+  if rep > 0:
+    n = 2
+    one = 1
+    two = 1
+    three = 1
+    
+    while n < rep:
+      three = one + two
+      one = two
+      two = three
+      n = n + 1
+      
+    print (str(three) + " is number " + str(n) + " in the fibonacci sequence")
+    
+  else:
+    fib()
